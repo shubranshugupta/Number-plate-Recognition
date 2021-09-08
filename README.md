@@ -1,7 +1,7 @@
 # Number-plate-Recognition
 Website to read number plate of car, bike etc.
 
-![alt-text](Client_static/image/My Video.gif)
+![alt-text](https://github.com/shubranshugupta/Number-plate-Recognition/blob/main/Client_static/image/My%20Video.gif)
 
 ## How to Install
 
