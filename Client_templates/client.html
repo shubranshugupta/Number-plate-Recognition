@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car License Plate Recognition</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='image/icon.png') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='dark.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='first_page.css') }}">
+
+</head>
+
+<body>
+    <div class="bg-image"></div>
+
+    <div id="heading">
+        <h1>
+            Vehicle License Plate Recognition
+        </h1>
+    </div>
+
+    <form action="upload.php" method="POST" id="uplodField">
+        <input id="imageUpload" type="file" multiple accept=".png .jpg .jpeg .mp4">
+        <h2>Drag Photo/Video here or click in this area.</h2>
+    </form>
+
+    <button type="submit" onclick="submitFile()" id="submitBtn">Upload</button>
+    <!-- <button type="submit" onclick="cameraClick()" id="cameraBtn">Camera</button> -->
+
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+        <h4 id="loadingText">Loading ...</h4>
+    </div>
+
+    <script src="{{ url_for('static', filename='sweetalert2.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='client.js') }}"></script>
+</body>
+
+</html>

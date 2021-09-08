@@ -1,0 +1,9 @@
+name: number-plate
+
+dependencies:
+  - python==3.7
+  - pip
+  - matplotlib
+  - opencv
+  - pip:
+    - tensorflow==2.3.0rc0
