@@ -43,7 +43,7 @@ pip install -r requirements.txt
 
 6. Extract and past in `checkpoints/custom-416/variables` folder
 
-7. Running client.py
+7. Run client.py
 
 ```bash
 python client.py
