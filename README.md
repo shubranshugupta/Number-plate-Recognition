@@ -39,7 +39,7 @@ conda activate number-plate
 pip install -r requirements.txt
 ```
 
-5. Download Weight file `variables.data-00000-of-00001` and `variables.index` from <a href='https://drive.google.com/drive/folders/1-1qgUIMvZ9SD56Y8_TQYiC076ppYuYcv?usp=sharing'>Drive</a>
+5. Download Weight file `variables.data-00000-of-00001` and `variables.index` from <a href='https://drive.google.com/file/d/1-0lT6wIjslR0eltrzx7H49Ap9JCrZCmH/view?usp=share_link'>Drive</a>
 
 6. Extract and past in `checkpoints/custom-416/variables` folder
 
